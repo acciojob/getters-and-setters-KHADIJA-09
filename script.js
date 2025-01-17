@@ -5,11 +5,11 @@ class Person {
 		this.name = name
 		this.age = age
 	}
-	get  name()
+	get  fname()
 	{
 		console.log(this.name)
 	}
-	set  age(age)
+	set  fage(age)
 	{
 		console.log(this.age)
 	}
