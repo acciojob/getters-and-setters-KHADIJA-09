@@ -2,8 +2,8 @@
 class Person {
 	constructor(name,age)
 	{
-		this.name = name
-		this.age = age
+		this._name = name
+		this._age = age
 	}
 	get  fname()
 	{
