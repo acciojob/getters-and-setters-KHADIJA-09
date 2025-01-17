@@ -11,7 +11,12 @@ class Person {
 	}
 	set  fage(age)
 	{
-		console.log(this._age)
+		
+	if (value < 0) {
+      throw new Error("Age cannot be negative.");
+    }
+    this._age = value;
+  }
 	}
 }
 
