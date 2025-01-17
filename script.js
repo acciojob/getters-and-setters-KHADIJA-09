@@ -11,7 +11,7 @@ class Person {
 	}
 	set  fage(age)
 	{
-		console.log(this.age)
+		console.log(this._age)
 	}
 }
 
